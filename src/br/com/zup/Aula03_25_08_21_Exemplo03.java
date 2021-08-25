@@ -6,20 +6,19 @@ public class Aula03_25_08_21_Exemplo03 {
     public static void main(String[] args) {
         // 3 - Faça um programa que converta metros para centímetros.
 
-        //Intanciar o Scanner
         Scanner calculoMetros = new Scanner(System.in);
 
-        //Declarar valor de todas as variáveis
-        int medidaMetros = 0;
+        // Definindo variáveis
+        double medidaMetros;
 
-        // Variaveis de processamento
-        int resultadoMetrosParaCentimetros = medidaMetros * 100;
+        // Dando essa conversão ao usuário
+        System.out.println( " Bem Vindo ao sistema de conversão de medida" );
+        System.out.println("Insira abaixo o valor em metros que você quer transformar em centímetros");
+        medidaMetros     = calculoMetros.nextDouble();
+        //Transformando os metros em centímetros
+        double centimetros = medidaMetros * 100;
+        // Informando ao usuário
+        System.out.println("Isso equivale a " + centimetros + " centimetros");
 
-        //Receber o valor das variáveis
-        System.out.println("Por favor, digite o valor em metro para conversão em cm");
-       medidaMetros = calculoMetros.nextInt();
-
-        //Exibir os dados
-        System.out.println("A conversão " + medidaMetros + "m para centimentros é de " + resultadoMetrosParaCentimetros + " cm");
     }
 }
