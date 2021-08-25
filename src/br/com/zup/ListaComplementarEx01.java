@@ -8,7 +8,7 @@ public class ListaComplementarEx01 {
         //Paulo (50 quilos) deve pagar uma multa de R$4,00 por quilo excedente. João
         //precisa que você faça um programa que leia a variável peso (peso de peixes) e
         //calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
-        float pesoPeixe = 100F;
+        float pesoPeixe = 450F;
         float excessoPesoPeixe = pesoPeixe - 50F;
         float valorMulta = excessoPesoPeixe * 4F;
 
